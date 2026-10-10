@@ -1,0 +1,99 @@
+==========================================================================================
+ AUTOMATED BENCHMARK REPORT (Granular Run Data | RTT: 11ms RTT)
+ Timestamp: 2026-10-10 21:26:20
+==========================================================================================
+[RESULT] NetRTT: 11ms RTT | Mode: PLAINTEXT | Size: 64B
+         -> Setup Times (Runs): [11.42ms, 10.46ms, 10.58ms] | Mean: 10.82ms (±0.52)
+         -> Avg RTTs (Runs):    [11.11ms, 11.12ms, 11.15ms] | Mean: 11.13ms (±0.02)
+[RESULT] NetRTT: 11ms RTT | Mode: PLAINTEXT | Size: 1024B
+         -> Setup Times (Runs): [10.42ms, 10.49ms, 10.43ms] | Mean: 10.45ms (±0.04)
+         -> Avg RTTs (Runs):    [11.20ms, 11.22ms, 11.26ms] | Mean: 11.23ms (±0.03)
+[RESULT] NetRTT: 11ms RTT | Mode: PLAINTEXT | Size: 16384B
+         -> Setup Times (Runs): [10.36ms, 10.69ms, 10.60ms] | Mean: 10.55ms (±0.17)
+         -> Avg RTTs (Runs):    [11.10ms, 11.06ms, 10.96ms] | Mean: 11.04ms (±0.07)
+[RESULT] NetRTT: 11ms RTT | Mode: TLS | Size: 64B
+         -> Setup Times (Runs): [58.77ms, 47.79ms, 45.51ms] | Mean: 50.69ms (±7.09)
+         -> Avg RTTs (Runs):    [11.83ms, 11.84ms, 11.75ms] | Mean: 11.81ms (±0.05)
+[RESULT] NetRTT: 11ms RTT | Mode: TLS | Size: 1024B
+         -> Setup Times (Runs): [48.90ms, 41.70ms, 43.51ms] | Mean: 44.70ms (±3.75)
+         -> Avg RTTs (Runs):    [12.03ms, 12.09ms, 11.74ms] | Mean: 11.95ms (±0.19)
+[RESULT] NetRTT: 11ms RTT | Mode: TLS | Size: 16384B
+         -> Setup Times (Runs): [47.28ms, 41.04ms, 41.49ms] | Mean: 43.27ms (±3.48)
+         -> Avg RTTs (Runs):    [32.09ms, 32.61ms, 32.06ms] | Mean: 32.25ms (±0.31)
+[RESULT] NetRTT: 11ms RTT | Mode: E2E | Size: 64B
+         -> Setup Times (Runs): [118.28ms, 106.91ms, 115.44ms] | Mean: 113.54ms (±5.92)
+         -> Avg RTTs (Runs):    [10.92ms, 10.92ms, 11.49ms] | Mean: 11.11ms (±0.33)
+[RESULT] NetRTT: 11ms RTT | Mode: E2E | Size: 1024B
+         -> Setup Times (Runs): [118.39ms, 114.07ms, 115.82ms] | Mean: 116.09ms (±2.17)
+         -> Avg RTTs (Runs):    [11.16ms, 11.12ms, 11.12ms] | Mean: 11.13ms (±0.02)
+[RESULT] NetRTT: 11ms RTT | Mode: E2E | Size: 16384B
+         -> Setup Times (Runs): [114.78ms, 115.45ms, 109.49ms] | Mean: 113.24ms (±3.26)
+         -> Avg RTTs (Runs):    [32.12ms, 32.82ms, 32.42ms] | Mean: 32.45ms (±0.35)
+==========================================================================================
+
+==========================================================================================
+ AUTOMATED BENCHMARK REPORT (Granular Run Data | RTT: 51ms RTT)
+ Timestamp: 2026-10-10 21:28:44
+==========================================================================================
+[RESULT] NetRTT: 51ms RTT | Mode: PLAINTEXT | Size: 64B
+         -> Setup Times (Runs): [51.00ms, 50.53ms, 50.76ms] | Mean: 50.77ms (±0.24)
+         -> Avg RTTs (Runs):    [51.68ms, 51.72ms, 51.67ms] | Mean: 51.69ms (±0.03)
+[RESULT] NetRTT: 51ms RTT | Mode: PLAINTEXT | Size: 1024B
+         -> Setup Times (Runs): [50.43ms, 50.73ms, 50.38ms] | Mean: 50.51ms (±0.19)
+         -> Avg RTTs (Runs):    [51.72ms, 51.77ms, 51.73ms] | Mean: 51.74ms (±0.03)
+[RESULT] NetRTT: 51ms RTT | Mode: PLAINTEXT | Size: 16384B
+         -> Setup Times (Runs): [51.30ms, 50.98ms, 51.51ms] | Mean: 51.26ms (±0.27)
+         -> Avg RTTs (Runs):    [51.92ms, 51.88ms, 51.92ms] | Mean: 51.91ms (±0.02)
+[RESULT] NetRTT: 51ms RTT | Mode: TLS | Size: 64B
+         -> Setup Times (Runs): [160.52ms, 156.60ms, 156.59ms] | Mean: 157.90ms (±2.27)
+         -> Avg RTTs (Runs):    [52.62ms, 52.54ms, 52.64ms] | Mean: 52.60ms (±0.05)
+[RESULT] NetRTT: 51ms RTT | Mode: TLS | Size: 1024B
+         -> Setup Times (Runs): [160.44ms, 154.45ms, 157.06ms] | Mean: 157.31ms (±3.00)
+         -> Avg RTTs (Runs):    [52.69ms, 52.75ms, 52.65ms] | Mean: 52.69ms (±0.05)
+[RESULT] NetRTT: 51ms RTT | Mode: TLS | Size: 16384B
+         -> Setup Times (Runs): [157.51ms, 159.67ms, 158.94ms] | Mean: 158.70ms (±1.10)
+         -> Avg RTTs (Runs):    [152.89ms, 152.26ms, 152.70ms] | Mean: 152.62ms (±0.33)
+[RESULT] NetRTT: 51ms RTT | Mode: E2E | Size: 64B
+         -> Setup Times (Runs): [356.52ms, 353.73ms, 351.01ms] | Mean: 353.75ms (±2.75)
+         -> Avg RTTs (Runs):    [51.61ms, 51.59ms, 51.24ms] | Mean: 51.48ms (±0.21)
+[RESULT] NetRTT: 51ms RTT | Mode: E2E | Size: 1024B
+         -> Setup Times (Runs): [352.32ms, 353.30ms, 347.83ms] | Mean: 351.15ms (±2.92)
+         -> Avg RTTs (Runs):    [51.49ms, 51.34ms, 51.22ms] | Mean: 51.35ms (±0.14)
+[RESULT] NetRTT: 51ms RTT | Mode: E2E | Size: 16384B
+         -> Setup Times (Runs): [348.87ms, 356.16ms, 352.29ms] | Mean: 352.44ms (±3.65)
+         -> Avg RTTs (Runs):    [152.45ms, 152.68ms, 152.12ms] | Mean: 152.42ms (±0.28)
+==========================================================================================
+
+==========================================================================================
+ AUTOMATED BENCHMARK REPORT (Granular Run Data | RTT: 103ms RTT)
+ Timestamp: 2026-10-10 21:32:35
+==========================================================================================
+[RESULT] NetRTT: 103ms RTT | Mode: PLAINTEXT | Size: 64B
+         -> Setup Times (Runs): [100.67ms, 101.05ms, 133.96ms] | Mean: 111.89ms (±19.11)
+         -> Avg RTTs (Runs):    [102.59ms, 102.59ms, 101.95ms] | Mean: 102.38ms (±0.37)
+[RESULT] NetRTT: 103ms RTT | Mode: PLAINTEXT | Size: 1024B
+         -> Setup Times (Runs): [101.21ms, 100.50ms, 100.36ms] | Mean: 100.69ms (±0.46)
+         -> Avg RTTs (Runs):    [101.77ms, 102.46ms, 101.79ms] | Mean: 102.00ms (±0.39)
+[RESULT] NetRTT: 103ms RTT | Mode: PLAINTEXT | Size: 16384B
+         -> Setup Times (Runs): [100.95ms, 101.03ms, 100.31ms] | Mean: 100.76ms (±0.40)
+         -> Avg RTTs (Runs):    [102.69ms, 103.10ms, 102.56ms] | Mean: 102.78ms (±0.28)
+[RESULT] NetRTT: 103ms RTT | Mode: TLS | Size: 64B
+         -> Setup Times (Runs): [308.43ms, 309.86ms, 307.31ms] | Mean: 308.53ms (±1.28)
+         -> Avg RTTs (Runs):    [103.70ms, 104.14ms, 103.69ms] | Mean: 103.84ms (±0.25)
+[RESULT] NetRTT: 103ms RTT | Mode: TLS | Size: 1024B
+         -> Setup Times (Runs): [312.26ms, 306.42ms, 306.56ms] | Mean: 308.41ms (±3.33)
+         -> Avg RTTs (Runs):    [103.67ms, 103.96ms, 103.48ms] | Mean: 103.70ms (±0.25)
+[RESULT] NetRTT: 103ms RTT | Mode: TLS | Size: 16384B
+         -> Setup Times (Runs): [307.61ms, 306.16ms, 306.06ms] | Mean: 306.61ms (±0.87)
+         -> Avg RTTs (Runs):    [302.70ms, 302.30ms, 302.95ms] | Mean: 302.65ms (±0.33)
+[RESULT] NetRTT: 103ms RTT | Mode: E2E | Size: 64B
+         -> Setup Times (Runs): [651.70ms, 649.12ms, 658.94ms] | Mean: 653.25ms (±5.09)
+         -> Avg RTTs (Runs):    [101.22ms, 101.34ms, 101.94ms] | Mean: 101.50ms (±0.39)
+[RESULT] NetRTT: 103ms RTT | Mode: E2E | Size: 1024B
+         -> Setup Times (Runs): [661.91ms, 654.31ms, 659.00ms] | Mean: 658.41ms (±3.83)
+         -> Avg RTTs (Runs):    [101.32ms, 101.34ms, 101.78ms] | Mean: 101.48ms (±0.26)
+[RESULT] NetRTT: 103ms RTT | Mode: E2E | Size: 16384B
+         -> Setup Times (Runs): [654.55ms, 651.77ms, 653.81ms] | Mean: 653.38ms (±1.44)
+         -> Avg RTTs (Runs):    [302.79ms, 302.93ms, 302.92ms] | Mean: 302.88ms (±0.08)
+==========================================================================================
+
