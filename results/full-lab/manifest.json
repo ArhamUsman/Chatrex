@@ -1,0 +1,367 @@
+{
+  "completion": {
+    "complete": true,
+    "failed_runs": 0,
+    "recorded_runs": 81,
+    "remaining_runs": 0,
+    "requested_runs": 81,
+    "resumed_skipped_runs": 0,
+    "running_runs": 0,
+    "successful_runs": 81
+  },
+  "config": {
+    "capture": true,
+    "capture_reason": null,
+    "environment": "lab",
+    "messages": 1000,
+    "modes": [
+      "plaintext",
+      "tls",
+      "e2e"
+    ],
+    "reduced_from_project_defaults": {
+      "messages": false,
+      "runs": false
+    },
+    "rtts_ms": [
+      20,
+      100,
+      200
+    ],
+    "runs": 3,
+    "schema_version": 1,
+    "seed": 0,
+    "sizes": [
+      64,
+      1024,
+      16384
+    ]
+  },
+  "config_signature": "bdd8d9a37c2e8fa4c8287f618b0815c04d359a5e9e9b1e2c2cadfbec241749cc",
+  "created_at_utc": "2026-11-14T15:16:53.806355Z",
+  "environment": "lab",
+  "intended_matrix": {
+    "condition_count": 27,
+    "conditions": [
+      {
+        "mode": "plaintext",
+        "name": "rtt-20ms_plaintext_64B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-20ms_plaintext_1024B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-20ms_plaintext_16384B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-20ms_tls_64B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-20ms_tls_1024B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-20ms_tls_16384B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-20ms_e2e_64B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-20ms_e2e_1024B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-20ms_e2e_16384B",
+        "rtt_ms": 20,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-100ms_plaintext_64B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-100ms_plaintext_1024B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-100ms_plaintext_16384B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-100ms_tls_64B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-100ms_tls_1024B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-100ms_tls_16384B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-100ms_e2e_64B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-100ms_e2e_1024B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-100ms_e2e_16384B",
+        "rtt_ms": 100,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-200ms_plaintext_64B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-200ms_plaintext_1024B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "plaintext",
+        "name": "rtt-200ms_plaintext_16384B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-200ms_tls_64B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-200ms_tls_1024B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "tls",
+        "name": "rtt-200ms_tls_16384B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-200ms_e2e_64B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 64
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-200ms_e2e_1024B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 1024
+      },
+      {
+        "mode": "e2e",
+        "name": "rtt-200ms_e2e_16384B",
+        "rtt_ms": 200,
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "size_bytes": 16384
+      }
+    ],
+    "run_count": 81
+  },
+  "network_architecture": {
+    "echo": "separate ChatClient; same room; same message ID; payload validated",
+    "echo_namespace": "server",
+    "relay": "10.0.3.10",
+    "relay_decrypts_e2e": false,
+    "relay_plain_port": 8080,
+    "relay_secure_port": 8443,
+    "sender": "10.0.1.10",
+    "sender_namespace": "client"
+  },
+  "schema_version": 1,
+  "seed": 0,
+  "software": {
+    "chatrex_protocol": "1",
+    "openssl": "OpenSSL 3.0.13 30 Jan 2024",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "pynacl": "1.6.2",
+    "python": "3.12.3"
+  },
+  "status": "complete",
+  "updated_at_utc": "2026-11-14T19:11:44.130510Z"
+}
