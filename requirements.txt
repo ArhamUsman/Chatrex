@@ -1,0 +1,4 @@
+PyNaCl>=1.5.0
+nicegui>=2.0.0
+matplotlib>=3.8.0
+pytest>=8.0.0

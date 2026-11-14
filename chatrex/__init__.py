@@ -1,0 +1,53 @@
+"""Shared protocol and security primitives for ChatreX."""
+
+from .protocol import (
+    MAX_FRAME_BYTES,
+    PROTOCOL_VERSION,
+    Mode,
+    Modes,
+    ProtocolError,
+    b64decode,
+    b64encode,
+    make_message,
+    recv_exact,
+    recv_frame,
+    send_frame,
+    validate_room_code,
+    validate_room_name,
+    validate_username,
+)
+from .security import (
+    E2EError,
+    Identity,
+    TrustStore,
+    create_client_context,
+    create_server_context,
+    fingerprint,
+    open,
+    seal,
+)
+
+__all__ = [
+    "MAX_FRAME_BYTES",
+    "PROTOCOL_VERSION",
+    "E2EError",
+    "Identity",
+    "Mode",
+    "Modes",
+    "ProtocolError",
+    "TrustStore",
+    "b64decode",
+    "b64encode",
+    "create_client_context",
+    "create_server_context",
+    "fingerprint",
+    "make_message",
+    "open",
+    "recv_exact",
+    "recv_frame",
+    "seal",
+    "send_frame",
+    "validate_room_code",
+    "validate_room_name",
+    "validate_username",
+]
